@@ -1,0 +1,15 @@
+{
+  "name": "browser-grpc/kafka-grpc",
+  "description": "Kafka over gRPC for PHP: generated grpcdc.kafka.v1 clients (produce/consume/groups/topics) over the grpc-dc runtime.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/browser-grpc/grpc-over-datachannels",
+  "autoload": {
+    "classmap": ["lib"],
+    "files": ["lib/kafka_grpc_dc.php"]
+  },
+  "require": {
+    "php": ">=8.1",
+    "browser-grpc/grpc-dc": "^0.38.0"
+  }
+}
