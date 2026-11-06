@@ -10,6 +10,6 @@
   },
   "require": {
     "php": ">=8.1",
-    "browser-grpc/grpc-dc": "^0.38.0"
+    "browser-grpc/grpc-dc": "^0.39.0"
   }
 }
